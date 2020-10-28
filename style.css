@@ -85,6 +85,16 @@ header {
     left: 150px;
 }
 
+.arrow_left:hover {
+    transform: rotate(360deg);
+    transition-duration: 1.5s;
+}
+
+.arrow_right:hover {
+    transform: rotate(360deg);
+    transition-duration: 1.5s;
+}
+
 .arrow_right {
     right: 150px;
 }
@@ -326,8 +336,10 @@ button:focus {
 
 .card_group_pix:hover,
 .card_group_pix:focus {
+    border: 1px solid black;
+    transform: scale(1.2);
+    transition-duration: 1s;
     background-color: #362f2d;
-    filter: saturate(50%) grayscale(70%);
 }
 
 .visibility_clip {
@@ -486,6 +498,13 @@ button:focus {
     box-sizing: border-box;
 }
 
+.card_recent_post:hover,
+.card_recent_post:focus {
+    border: 1px solid black;
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+
  .text_read_more {
     font-family: Montserrat, Arial, sans-serif;
     font-size: 15px;
@@ -525,6 +544,12 @@ button:focus {
 .card_brown_block_2:hover,
 .card_brown_block_2:focus  {
     filter: opacity(0.2);
+}
+
+.footer_pix:hover,
+.footer_pix:focus {
+    transform: rotate(360deg);
+    transition-duration: 1.5s;
 }
 
 .footer_text_style {
@@ -729,7 +754,6 @@ header .logo {
     margin: 10px 0px;
 }
 
-
 .service .card {
     width: 45%;
     padding: 20px 10px;
@@ -801,7 +825,7 @@ iframe {
 .bg_mobil {
     background-image: url(pix_block4/iphone_in_hand.png);
     margin-top: 0px;
-    background-size: 55% auto;
+    background-size: 50% auto;
     background-repeat: no-repeat; 
     background-position: left bottom;
 }
