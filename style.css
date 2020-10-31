@@ -86,11 +86,13 @@ header {
 }
 
 .arrow_left:hover {
+    cursor: pointer;
     transform: rotate(-360deg);
     transition-duration: 1.5s;
 }
 
 .arrow_right:hover {
+    cursor: pointer;
     transform: rotate(360deg);
     transition-duration: 1.5s;
 }
@@ -115,11 +117,13 @@ nav ul {
 
 .menu li:hover {
     color: #c7b299;
+    cursor: pointer;
 }
 
 button:hover,
 button:focus {
     background-color:#555555;
+    cursor: pointer;
 }
 
 .button_start {
@@ -167,6 +171,7 @@ button:focus {
 .card:hover,
 .card:focus {
     filter: brightness(10%) contrast(150%);
+    cursor: pointer;
 }
 
 .card_h2 {
@@ -297,6 +302,7 @@ button:focus {
 .group_button button:hover {
     color: #fff;
     background-color: #998675;
+    cursor: pointer;
 }
 
 .group_pix {
@@ -333,6 +339,7 @@ button:focus {
     transition-delay: 0.3s;
     top: 205px;
     left: 20px;
+    cursor: pointer;
 }
 
 .card_group_pix:hover,
@@ -341,6 +348,7 @@ button:focus {
     transform: scale(1.2);
     transition-duration: 1s;
     background-color: #362f2d;
+    cursor: pointer;
 }
 
 .visibility_clip {
@@ -360,11 +368,13 @@ button:focus {
 .visibility_clip:hover,
 .visibility_clip:focus {
     opacity: 1;
+    cursor: pointer;
 }
 
 .visibility_lupa:hover,
 .visibility_lupa:focus {
     opacity: 1;
+    cursor: pointer;
 }
 
 .h3 {
@@ -504,6 +514,7 @@ button:focus {
     border: 1px solid black;
     transform: scale(1.2);
     transition-duration: 1s;
+    cursor: pointer;
 }
 
  .text_read_more {
@@ -522,6 +533,7 @@ button:focus {
 
 .card_recent_post:hover {
     background-color: #362f2d;
+    cursor: pointer;
 }
 
 .footer {
@@ -545,12 +557,14 @@ button:focus {
 .card_brown_block_2:hover,
 .card_brown_block_2:focus  {
     filter: opacity(0.2);
+    cursor: pointer;
 }
 
 .footer_pix:hover,
 .footer_pix:focus {
     transform: rotate(360deg);
     transition-duration: 1.5s;
+    cursor: pointer;
 }
 
 .footer_text_style {
@@ -619,6 +633,7 @@ button:focus {
 .a_footer p:hover,
 .a_footer p:focus {
     color: #c7b299;
+    cursor: pointer;
 }
 
 .data_twitter {
@@ -683,6 +698,7 @@ button:focus {
 .copy li:hover,
 .copy a:hover {
     color: #c7b299;
+    cursor: pointer;
 }
 
 .copy_left {
