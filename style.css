@@ -336,7 +336,7 @@ button:focus {
     position: absolute;
     border: 20px solid transparent; 
     border-bottom: 20px solid #362f2d;
-    transition-delay: 0.3s;
+    transition-delay: 0.1s;
     top: 205px;
     left: 20px;
     cursor: pointer;
@@ -344,9 +344,9 @@ button:focus {
 
 .card_group_pix:hover,
 .card_group_pix:focus {
-    border: 1px solid black;
-    transform: scale(1.2);
-    transition-duration: 1s;
+    outline: 1px solid black;
+    transform: scale(1.1);
+    transition-duration: 0.3s;
     background-color: #362f2d;
     cursor: pointer;
 }
@@ -512,8 +512,8 @@ button:focus {
 .card_recent_post:hover,
 .card_recent_post:focus {
     border: 1px solid black;
-    transform: scale(1.2);
-    transition-duration: 1s;
+    transform: scale(1.1);
+    transition-duration: 0.3s;
     cursor: pointer;
 }
 
